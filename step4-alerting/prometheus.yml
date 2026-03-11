@@ -6,8 +6,8 @@ scrape_configs:
     static_configs:
       - targets: ["node_exporter:9100"]
 
-rules_files:
-  - "alert_rules.yml"
+rule_files:
+  - alert_rules.yml
 
 alerting:
   alertmanagers:
