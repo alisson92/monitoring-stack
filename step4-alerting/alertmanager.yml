@@ -6,6 +6,7 @@ receivers:
     slack_configs:
       - send_resolved: true
         channel: "#devops-alerts-monitoring"
-        username: "Prometheus Bot"
+        username: "PrometheusBot"
         icon_emoji: ":rotating_light:"
         api_url: ${SLACK_WEBHOOK_URL}
+        
